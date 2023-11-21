@@ -1,0 +1,152 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Helvetica, sans-serif;
+  background-color: white;
+  /*background: rgb(183,97,0);
+  background: linear-gradient(174deg, rgba(183,97,0,1) 0%, rgba(0,0,0,1) 100%);
+  background-size: cover;
+  background-repeat: no-repeat;*/
+  background: url(https://storage.googleapis.com/raremaps/img/xlarge/31225.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+}
+
+#body {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+#head {
+  background-image: url(https://image.jimcdn.com/app/cms/image/transf/dimension=2080x10000:format=jpg/path/s2217cd0bb1220415/image/i62aaae071fb98ff7/version/1686612930/marco-polo.jpg);
+  background-position: top;
+  background-size: cover;
+  height: 60vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2em;
+  color: white;
+  text-shadow: 4px 4px 4px black;
+    -webkit-mask-image: linear-gradient(to bottom, black 60%, transparent 100%);
+
+}
+
+#description {
+  width: 80vw;
+  margin-top: 16px;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  font-size: 1.3em;
+  font-weight: bold;
+  text-shadow: 1px 1px 0 white,-1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white;
+  
+}
+
+#logo {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: linear-gradient(146deg, rgba(255,0,0,1) 0%, rgba(255,223,0,1) 24%, rgba(0,255,36,1) 51%, rgba(0,15,255,1) 76%, rgba(68,0,114,1) 100%);
+  text-shadow: none;
+  background-clip: text;
+-webkit-background-clip: text;
+color: transparent;
+}
+
+#destinations {
+  width: 100%;
+  color: white;
+  text-shadow: 4px 4px 4px black;
+}
+
+#destinations h2 {
+  width: 100%;
+  text-align: center;
+  font-size: 4em;
+  font-family: serif;
+}
+.place {
+  width: 80%;
+  border-radius: 8px;
+  background-color: rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 8px 8px rgba(0, 0, 0, 0.2);
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.place .text {
+  width: 50%;
+}
+.place .text h1 {
+  font-size: 2.5em;
+}
+.place .text p {
+  font-size: 1.5em;
+}
+.place .image {
+  width: 50%;
+  text-align: center;
+  border-radius: 8px;
+}
+.place .image img {
+  width: 100%;
+  border-radius: 8px;
+}
+.place .image h4 {
+  font-size: 1.5em;
+}
+
+.place .locations {
+  width: 100%;
+  font-size: 1.5em;
+}
+.day {
+  text-align: center;
+  font-weight: regular;
+  font-style: italic;
+}
+
+#footer {
+  margin-top: 8px;
+  box-shadow: 0 0 8px 4px black;
+  background-color: black;
+  color: white;
+}
+
+#estimate {
+  text-align: center;
+  color: white;
+  font-size: 3em;
+  -webkit-text-stroke: 2px black;
+}
+
+#action {
+  text-align: center;
+  margin: 20px;
+}
+#action h1 {
+  font-size: 2.5em;
+  margin: 16px;
+}
+#action a {
+  font-size: 3em;
+  background-color: #121212;
+  color: white;
+  margin: 32px;
+  padding: 8px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: 0.2s;
+  box-shadow: -4px -4px 0 0 black;
+}
+#action a:hover {
+  box-shadow: 4px 4px 0 0 black;
+}
